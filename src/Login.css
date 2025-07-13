@@ -1,0 +1,39 @@
+.login-screen {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%; 
+}
+
+.login-username-password {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-username,
+.login-password {
+    width: 48%;
+}
+
+.login-submit-button {
+    width: 100%;
+}
+
+.group-scheduler-logo {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.group-scheduler-logo > * {
+    margin-right: 20px;
+}

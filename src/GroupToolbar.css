@@ -1,0 +1,31 @@
+.group-scheduler-logo-small {
+    margin-top: 50px;
+    border: none;
+}
+
+.groups {
+    display: flex; 
+    flex-direction: column;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 50px;
+}
+  
+.group-item {
+    background-color: rgb(100, 100, 100);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding-right: 8px;
+    margin-bottom: 10px; 
+    width: 200px;
+    height: 30px;
+}
+  
+.group-item-selected {
+    background-color: rgb(150, 150, 150);
+}
+  
+.create-group-button {
+    background-color: rgb(50, 150, 50);
+}

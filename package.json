@@ -1,9 +1,12 @@
 {
   "name": "group-scheduler",
   "private": true,
+  "homepage": "https://arvid0528.github.io/group-scheduler",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

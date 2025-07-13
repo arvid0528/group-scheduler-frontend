@@ -1,0 +1,38 @@
+.register-screen {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.text-field-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-email-and-username {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.register-email,
+.register-username {
+    width: 48%;
+}
+
+.register-password-and-repeat-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.register-password,
+.register-repeat-password {
+    width: 48%;
+}
+
+.register-submit-button {
+    width: 100%;
+}

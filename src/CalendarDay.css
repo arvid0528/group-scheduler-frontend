@@ -1,0 +1,82 @@
+
+.calendar {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+  
+.calendar-day {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background-color: #303136;
+    padding: 12px;
+    width: 14%;
+    height: 100%;
+    margin: 10px;
+}
+  
+.day-header {
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+}
+  
+.time-slot-and-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 128px;
+}
+
+.time-slots {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+  
+.time-slot {
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.accepted-users-profile-pictures {
+    width: 100%;
+}
+
+.accepted-users-profile-pictures Button {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.accept-decline-buttons {
+    float: right;
+    width: 32px;
+    min-width: 32px;
+}
+
+.time-slot.selected {
+    background-color: #2554d5;
+    border-color: #2554d5;
+}
+
+.time-label {
+    font-size: 12px;
+}
+
+.submit-intervals button{
+    background-color: #2554d5;
+}
+  
