@@ -1,7 +1,7 @@
 {
   "name": "group-scheduler",
   "private": true,
-  "homepage": "https://arvid0528.github.io/group-scheduler",
+  "homepage": "https://arvid0528.github.io/group-scheduler-frontend",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
